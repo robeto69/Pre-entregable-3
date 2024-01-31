@@ -1,0 +1,26 @@
+body {
+
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+body {
+    
+    .imagen_whatsapp {
+        width: 45px;
+        background-color: transparent;
+        position: fixed;
+        top: 90%;
+        right: 10%;
+        bottom: 10%;
+    }
+
+    .link_whatsapp {
+    
+        &:hover  {
+        padding: 2px;
+
+    }
+}
+}

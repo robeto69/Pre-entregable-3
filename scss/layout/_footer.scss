@@ -1,0 +1,28 @@
+.footer  {
+    margin: 25px;
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.iconos  {
+    padding: 2px;
+    margin: 10px;
+    color: red;
+    border-color: transparent;
+    font-size: rem; font-family: 'Quicksand', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: 1s;
+    
+    &:hover {
+        color: white;
+        background-color:tan;
+
+    }
+}

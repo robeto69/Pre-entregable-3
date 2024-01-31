@@ -1,0 +1,30 @@
+@media screen and (max-width: 768px) {
+
+    .grid_info p {
+        font-size: 1rem;
+        color: red;
+
+    }
+
+    .iconos {
+        color: blue;
+
+        &:hover {
+            color: red;
+            background-color:blue;
+        }
+    }
+
+       
+    .grid_alfombras p {
+        font-size: 1rem;
+        font-family: 'Quicksand', sans-serif;
+        text-align: center;
+        color: red;
+    }
+    .container_img img {
+        width: 100%;
+        border-radius: 4px;
+    }
+
+}
