@@ -194,4 +194,23 @@ body .link_whatsapp:hover {
   border-radius: 4px;
 }
 
+.bloque_principal {
+  margin: auto;
+  padding: 10px;
+  background-color: aliceblue;
+}
+.bloque_principal h2 {
+  color: #FFC107;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+}
+.bloque_principal ul {
+  list-style-type: none;
+}
+.bloque_principal li {
+  text-decoration: none;
+  margin: 10px;
+  color: grey;
+}
+
 /*# sourceMappingURL=style.css.map */
