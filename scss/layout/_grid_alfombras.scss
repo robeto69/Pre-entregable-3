@@ -1,0 +1,102 @@
+.grid_alfombras {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    margin:10px;
+    row-gap: 10px;
+    column-gap: 10px;
+    flex-wrap: wrap;
+    transition: 1s;
+
+    p{
+        font-size: 1rem;
+        font-family: 'Quicksand', sans-serif;
+        text-align: center;
+    }
+    
+}
+
+.grid_alfombra_1 {
+    padding: 10px;
+    border: solid 1px aquamarine;
+    border-radius: 4px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+    &:hover {
+        border: dotted 2px red;
+    }
+
+}
+
+.grid_alfombra_2 {
+    padding: 10px;
+    border: solid 1px aquamarine;
+    border-radius: 4px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+    &:hover {
+    border: dotted 2px red;
+
+} 
+}
+
+.grid_alfombra_3 {
+    padding: 10px;
+    border: solid 1px aquamarine;
+    border-radius: 4px;
+    grid-column: 3/4;
+    grid-row: 1/2;
+
+    &:hover {
+    border: dotted 2px red;
+
+    }
+}
+
+.grid_alfombra_4 {
+    padding: 10px;
+    border: solid 1px aquamarine;
+    border-radius: 4px;
+    grid-column: 4/5;
+    grid-row: 1/2;
+
+    &:hover {
+    border: dotted 2px red;
+
+}
+}
+
+.grid_alfombra_5 {
+    padding: 10px;
+    border: solid 1px aquamarine;
+    border-radius: 4px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+
+    &:hover {
+    border: dotted 2px red;
+
+}
+}
+
+.grid_alfombra_6 {
+    padding: 10px;
+    border: solid 1px aquamarine;
+    border-radius: 4px;
+    grid-column: 3/4;
+    grid-row: 2/3;
+
+    &:hover {
+    border: dotted 2px red;
+
+}
+}
+
+
+
+.container_img img {
+    width: 50%;
+    border-radius: 4px;
+}
