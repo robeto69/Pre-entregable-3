@@ -14,13 +14,12 @@ body {
         top: 90%;
         right: 10%;
         bottom: 10%;
-    }
+        transition: 2s;
 
-    .link_whatsapp {
-    
         &:hover  {
-        padding: 2px;
+            transform: rotate(360deg);
+        }
 
     }
-}
+
 }

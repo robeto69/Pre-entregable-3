@@ -1,6 +1,6 @@
 
 $colorli:grey;
-$colorprincipal:#FFC107;
+$colorprincipal:red;
 
 @mixin fuente-listas ($size, $family, $color) {
     font-size: $size;
@@ -9,12 +9,10 @@ $colorprincipal:#FFC107;
 }
 
 
-
-
 .bloque_principal {
     margin: auto;
     padding: 10px;
-    background-color: aliceblue;
+    background-image: linear-gradient(to bottom, white,#FFC107,  white);
 
     h2 {
         color: $colorprincipal;
@@ -34,16 +32,16 @@ $colorprincipal:#FFC107;
             }
 
             .lista1 {
-                @include fuente-listas(1.5rem, Tahoma, grey );
+                @include fuente-listas(1.5rem, Tahoma, rgb(235, 94, 13));
 
             }
 
             .lista2 {
-                @include fuente-listas(1.5rem, Arial, black );
+                @include fuente-listas(1.5rem, Arial, rgb(11, 139, 245) );
 
             }
 
             .lista3 {
-                @include fuente-listas(1.5rem, Segoe UI, red);
+                @include fuente-listas(1.5rem, Segoe UI,rgb(66, 236, 14) );
             }
 }
