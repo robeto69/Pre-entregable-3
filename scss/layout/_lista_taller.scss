@@ -2,6 +2,13 @@
 $colorli:grey;
 $colorprincipal:#FFC107;
 
+@mixin fuente-listas ($size, $family, $color) {
+    font-size: $size;
+    font-family: $family;
+    color: $color;
+}
+
+
 
 
 .bloque_principal {
@@ -12,7 +19,7 @@ $colorprincipal:#FFC107;
     h2 {
         color: $colorprincipal;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 1rem;
+        font-size: 1.5rem;
 
     }
         ul {
@@ -23,7 +30,20 @@ $colorprincipal:#FFC107;
             li{
                 text-decoration: none;
                 margin: 10px;
-                color: $colorli;
+                
             }
 
+            .lista1 {
+                @include fuente-listas(1.5rem, Tahoma, grey );
+
+            }
+
+            .lista2 {
+                @include fuente-listas(1.5rem, Arial, black );
+
+            }
+
+            .lista3 {
+                @include fuente-listas(1.5rem, Segoe UI, red);
+            }
 }

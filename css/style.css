@@ -202,7 +202,7 @@ body .link_whatsapp:hover {
 .bloque_principal h2 {
   color: #FFC107;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 .bloque_principal ul {
   list-style-type: none;
@@ -210,7 +210,21 @@ body .link_whatsapp:hover {
 .bloque_principal li {
   text-decoration: none;
   margin: 10px;
+}
+.bloque_principal .lista1 {
+  font-size: 1.5rem;
+  font-family: Tahoma;
   color: grey;
+}
+.bloque_principal .lista2 {
+  font-size: 1.5rem;
+  font-family: Arial;
+  color: black;
+}
+.bloque_principal .lista3 {
+  font-size: 1.5rem;
+  font-family: Segoe UI;
+  color: red;
 }
 
 /*# sourceMappingURL=style.css.map */
