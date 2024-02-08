@@ -16,15 +16,29 @@
     }
 
        
-    .grid_alfombras p {
-        font-size: 1rem;
-        font-family: 'Quicksand', sans-serif;
-        text-align: center;
-        color: red;
-    }
+    .grid_alfombras {
+            grid-template-columns: repeat(auto-fill, minmax(5rem, 1fr));
+            gap: 10px;
+      }
+        
+            p {
+            font-size: 1rem;
+            font-family: 'Quicksand', sans-serif;
+            text-align: center;
+            color: red;
+         }
+    
+
     .container_img img {
         width: 100%;
         border-radius: 4px;
     }
 
 }
+
+
+    .grid-container {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 10px;
+    }
+  
